@@ -1,6 +1,7 @@
 package fr.dexils.amethystplus;
 
 import com.mojang.logging.LogUtils;
+import fr.dexils.amethystplus.item.AmethystPlusCreativeModTabs;
 import fr.dexils.amethystplus.item.AmethystPlusItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,8 @@ public class AmethystPlus
     public AmethystPlus()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        AmethystPlusCreativeModTabs.register(modEventBus);
 
         AmethystPlusItems.register(modEventBus);
 
