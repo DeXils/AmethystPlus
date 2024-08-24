@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "amethystplus:block/amethyst_green_block"
+  }
+}
