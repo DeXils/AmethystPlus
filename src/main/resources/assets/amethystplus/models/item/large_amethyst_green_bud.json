@@ -1,0 +1,11 @@
+  {
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "amethystplus:block/large_amethyst_green_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 4, 0 ]
+    }
+  }
+}

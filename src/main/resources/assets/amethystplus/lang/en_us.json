@@ -1,7 +1,14 @@
 {
+  "block.amethystplus.amethyst_green_block" : "Amethyst Green Block",
+  "block.amethystplus.amethyst_green_cluster" : "Amethyst Green Cluster",
+  "block.amethystplus.budding_amethyst_green" : "Budding Amethyst Green",
+  "block.amethystplus.large_amethyst_green_bud" : "Large Amethyst Green Bud",
+  "block.amethystplus.medium_amethyst_green_bud" : "Medium Amethyst Green Bud",
+  "block.amethystplus.small_amethyst_green_bud" : "Small Amethyst Green Bud",
+  "block.amethystplus.calcite_green" : "Calcite Green",
+
   "item.amethystplus.amethyst_green_shard" : "Amethyst Green Shard",
 
-  "block.amethystplus.amethyst_green_block" : "Amethyst Green Block",
 
   "creativetab.amethystplus_tab" : "Amethyst +"
 }

@@ -10,8 +10,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.function.Supplier;
-
 public class AmethystPlusCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AmethystPlus.MOD_ID);
@@ -22,6 +20,12 @@ public class AmethystPlusCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(AmethystPlusItems.AMETHYST_GREEN_SHARD.get());
                         pOutput.accept(AmethystPlusBlocks.AMETHYST_GREEN_BLOCK.get());
+                        pOutput.accept(AmethystPlusBlocks.BUDDING_AMETHYST_GREEN.get());
+                        pOutput.accept(AmethystPlusBlocks.AMETHYST_GREEN_CLUSTER.get());
+                        pOutput.accept(AmethystPlusBlocks.LARGE_AMETHYST_GREEN_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.MEDIUM_AMETHYST_GREEN_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.SMALL_AMETHYST_GREEN_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.CACLITE_GREEN.get());
                     })
                     .build());
 
