@@ -29,19 +29,21 @@ public class AmethystPlusBlocks {
             () -> new BuddingAmethystGreenBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BUDDING_AMETHYST)));
 
     public static final RegistryObject<Block> AMETHYST_GREEN_CLUSTER = registerBlock("amethyst_green_cluster",
-            ()-> new AmethystClusterBlock(7,3,BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER).requiresCorrectToolForDrops()));
+            ()-> new AmethystClusterBlock(7,3,BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER)));
 
     public static final RegistryObject<Block> LARGE_AMETHYST_GREEN_BUD = registerBlock("large_amethyst_green_bud",
-            ()-> new AmethystClusterBlock(5,3,BlockBehaviour.Properties.ofFullCopy(Blocks.LARGE_AMETHYST_BUD).requiresCorrectToolForDrops()));
+            ()-> new AmethystClusterBlock(5,3,BlockBehaviour.Properties.ofFullCopy(Blocks.LARGE_AMETHYST_BUD)));
 
     public static final RegistryObject<Block> MEDIUM_AMETHYST_GREEN_BUD = registerBlock("medium_amethyst_green_bud",
-            ()-> new AmethystClusterBlock(6,3,BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD).requiresCorrectToolForDrops()));
+            ()-> new AmethystClusterBlock(6,3,BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD)));
 
     public static final RegistryObject<Block> SMALL_AMETHYST_GREEN_BUD = registerBlock("small_amethyst_green_bud",
-            ()-> new AmethystClusterBlock(3,4,BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD).requiresCorrectToolForDrops()));
+            ()-> new AmethystClusterBlock(3,4,BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD)));
 
     public static final RegistryObject<Block> CACLITE_GREEN = registerBlock("calcite_green",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE)));
+
+
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
