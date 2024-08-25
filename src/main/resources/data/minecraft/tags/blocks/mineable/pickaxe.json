@@ -2,6 +2,9 @@
   "values": [
     "amethystplus:amethyst_green_cluster",
     "amethystplus:amethyst_green_block",
-    "amethystplus:calcite_green"
+    "amethystplus:calcite_green",
+    "amethystplus:amethyst_blue_cluster",
+    "amethystplus:amethyst_blue_block",
+    "amethystplus:calcite_blue"
   ]
 }

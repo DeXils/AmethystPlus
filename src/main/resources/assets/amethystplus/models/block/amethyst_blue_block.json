@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "amethystplus:block/amethyst_blue_block"
+  }
+}

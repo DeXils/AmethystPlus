@@ -18,6 +18,7 @@ public class AmethystPlusCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(AmethystPlusItems.AMETHYST_GREEN_SHARD.get()))
                     .title(Component.translatable("creativetab.amethystplus_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //Amethyst Green
                         pOutput.accept(AmethystPlusItems.AMETHYST_GREEN_SHARD.get());
                         pOutput.accept(AmethystPlusBlocks.AMETHYST_GREEN_BLOCK.get());
                         pOutput.accept(AmethystPlusBlocks.BUDDING_AMETHYST_GREEN.get());
@@ -26,6 +27,16 @@ public class AmethystPlusCreativeModTabs {
                         pOutput.accept(AmethystPlusBlocks.MEDIUM_AMETHYST_GREEN_BUD.get());
                         pOutput.accept(AmethystPlusBlocks.SMALL_AMETHYST_GREEN_BUD.get());
                         pOutput.accept(AmethystPlusBlocks.CACLITE_GREEN.get());
+
+                        //Amethyst Blue
+                        pOutput.accept(AmethystPlusItems.AMETHYST_BLUE_SHARD.get());
+                        pOutput.accept(AmethystPlusBlocks.AMETHYST_BLUE_BLOCK.get());
+                        pOutput.accept(AmethystPlusBlocks.BUDDING_AMETHYST_BLUE.get());
+                        pOutput.accept(AmethystPlusBlocks.AMETHYST_BLUE_CLUSTER.get());
+                        pOutput.accept(AmethystPlusBlocks.LARGE_AMETHYST_BLUE_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.MEDIUM_AMETHYST_BLUE_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.SMALL_AMETHYST_BLUE_BUD.get());
+                        pOutput.accept(AmethystPlusBlocks.CACLITE_BLUE.get());
                     })
                     .build());
 

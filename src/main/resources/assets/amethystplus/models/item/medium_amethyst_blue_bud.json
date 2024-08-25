@@ -1,0 +1,11 @@
+  {
+    "parent": "item/generated",
+  "textures": {
+    "layer0": "amethystplus:block/medium_amethyst_blue_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 6, 0 ]
+    }
+  }
+}

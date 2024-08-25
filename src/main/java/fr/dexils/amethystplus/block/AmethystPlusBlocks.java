@@ -1,6 +1,7 @@
 package fr.dexils.amethystplus.block;
 
 import fr.dexils.amethystplus.AmethystPlus;
+import fr.dexils.amethystplus.block.custom.BuddingAmethystBlueBlock;
 import fr.dexils.amethystplus.block.custom.BuddingAmethystGreenBlock;
 import fr.dexils.amethystplus.item.AmethystPlusItems;
 import net.minecraft.world.item.BlockItem;
@@ -41,6 +42,28 @@ public class AmethystPlusBlocks {
             ()-> new AmethystClusterBlock(3,4,BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD)));
 
     public static final RegistryObject<Block> CACLITE_GREEN = registerBlock("calcite_green",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE)));
+
+    // Amethyst Blue
+    public static final RegistryObject<Block> AMETHYST_BLUE_BLOCK = registerBlock("amethyst_blue_block",
+            ()-> new AmethystBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+    public static final RegistryObject<Block> BUDDING_AMETHYST_BLUE = registerBlock("budding_amethyst_blue",
+            () -> new BuddingAmethystBlueBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BUDDING_AMETHYST)));
+
+    public static final RegistryObject<Block> AMETHYST_BLUE_CLUSTER = registerBlock("amethyst_blue_cluster",
+            ()-> new AmethystClusterBlock(7,3,BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_CLUSTER)));
+
+    public static final RegistryObject<Block> LARGE_AMETHYST_BLUE_BUD = registerBlock("large_amethyst_blue_bud",
+            ()-> new AmethystClusterBlock(5,3,BlockBehaviour.Properties.ofFullCopy(Blocks.LARGE_AMETHYST_BUD)));
+
+    public static final RegistryObject<Block> MEDIUM_AMETHYST_BLUE_BUD = registerBlock("medium_amethyst_blue_bud",
+            ()-> new AmethystClusterBlock(6,3,BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD)));
+
+    public static final RegistryObject<Block> SMALL_AMETHYST_BLUE_BUD = registerBlock("small_amethyst_blue_bud",
+            ()-> new AmethystClusterBlock(3,4,BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD)));
+
+    public static final RegistryObject<Block> CACLITE_BLUE = registerBlock("calcite_blue",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE)));
 
 

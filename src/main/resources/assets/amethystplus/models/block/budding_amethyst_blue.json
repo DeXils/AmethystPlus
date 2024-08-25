@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "amethystplus:block/budding_amethyst_blue"
+
+  }
+}
